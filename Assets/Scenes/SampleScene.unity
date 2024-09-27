@@ -801,6 +801,7 @@ MonoBehaviour:
   input: 107
   notePrefab: {fileID: 1534850418514208906, guid: 9043eb2d71628404d9dfdc92d43fc48c, type: 3}
   timeStamps: []
+  midiKey: 65
 --- !u!4 &633316278
 Transform:
   m_ObjectHideFlags: 0
@@ -893,6 +894,7 @@ MonoBehaviour:
   input: 106
   notePrefab: {fileID: 6401272534080061571, guid: a043c4f729c0ef1429ea13081611a298, type: 3}
   timeStamps: []
+  midiKey: 64
 --- !u!4 &1441840088
 Transform:
   m_ObjectHideFlags: 0
@@ -941,6 +943,7 @@ MonoBehaviour:
   input: 108
   notePrefab: {fileID: 4003208864679534659, guid: bdf2514ac2b987144bc300f90b95a422, type: 3}
   timeStamps: []
+  midiKey: 67
 --- !u!4 &1547119063
 Transform:
   m_ObjectHideFlags: 0
@@ -1047,6 +1050,7 @@ MonoBehaviour:
   input: 104
   notePrefab: {fileID: 4003208864679534659, guid: b93f007ca30546343b6fb9f22a218a42, type: 3}
   timeStamps: []
+  midiKey: 62
 --- !u!4 &1856990797
 Transform:
   m_ObjectHideFlags: 0
@@ -1095,6 +1099,7 @@ MonoBehaviour:
   input: 103
   notePrefab: {fileID: 1679635116095923819, guid: cc28a87238983584da68d44f3dd25845, type: 3}
   timeStamps: []
+  midiKey: 60
 --- !u!4 &2073587299
 Transform:
   m_ObjectHideFlags: 0
