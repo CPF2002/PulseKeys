@@ -36,7 +36,7 @@ public class Lane : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (MidiMaster.GetKeyDown(0, midiKey))  // Channel 0, note 60
+        if (MidiMaster.GetKeyDown(0, midiKey))  
         {
             print($"Input on {midiKey} MIDI note");
         }
