@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    
+    public string songName;
     public void OnPlayButton ()
     {
         SceneManager.LoadScene(1); // Can be strign for specific scene name
@@ -14,6 +14,16 @@ public class Menu : MonoBehaviour
     public void OnQuitButton ()
     {
         Application.Quit();
+    }
+
+    public void OnMainMenuButton ()
+    {
+        SceneManager.LoadScene(0);
+    }
+
+    public void SongButton ()
+    {
+        SceneManager.LoadScene(songName);
     }
 
 }
