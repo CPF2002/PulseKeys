@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 18088342}
   - component: {fileID: 18088341}
   m_Layer: 0
-  m_Name: Text (TMP)
+  m_Name: ScoreText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -293,8 +293,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.58, y: 2.28}
-  m_SizeDelta: {x: 4.0594063, y: 5}
+  m_AnchoredPosition: {x: -5.73, y: 3.53}
+  m_SizeDelta: {x: 3.9013, y: 2.1736}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &159419515
 GameObject:
