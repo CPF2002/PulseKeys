@@ -26,7 +26,9 @@ public class Lane : MonoBehaviour
     {
         foreach (var note in array)
         {
-            if (note.NoteName == noteRestriction)
+            print(note.NoteName);
+            print(note.NoteNumber);
+            if (note.NoteNumber-12 == midiKey) // 12 is the difference between the midi values in Ableton and the midi values in MidiJack (C4 in Ableton is 60, note.Number in MidiJack is 72)
             {
                 var metricTimeSpan = TimeConverter.ConvertTo<MetricTimeSpan>(note.Time, SongManager.midiFile.GetTempoMap());
                 timeStamps.Add((double)metricTimeSpan.Minutes * 60f + metricTimeSpan.Seconds + (double)metricTimeSpan.Milliseconds / 1000f);

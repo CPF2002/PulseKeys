@@ -557,7 +557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 1
   input: 103
   notePrefab: {fileID: 1679635116095923819, guid: e8f7f2272fc2edc4ca64e0b782e2dd9d, type: 3}
   timeStamps: []
@@ -704,7 +704,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 9
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 0dc0f944041bb87429b65765789a9db0, type: 3}
   timeStamps: []
@@ -1567,7 +1567,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 8
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 5dc599d02fa86904db64fb55dca89733, type: 3}
   timeStamps: []
@@ -1787,7 +1787,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 6
   input: 103
   notePrefab: {fileID: 1534850418514208906, guid: 62192966518c96445b304f3fb76fff12, type: 3}
   timeStamps: []
@@ -3061,7 +3061,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 3
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 8e0a578f8efccba4895837284e9f98f2, type: 3}
   timeStamps: []
@@ -3243,7 +3243,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 1
   input: 103
   notePrefab: {fileID: 1679635116095923819, guid: e8f7f2272fc2edc4ca64e0b782e2dd9d, type: 3}
   timeStamps: []
@@ -3576,7 +3576,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 11
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 0d5a7684289f47743be056cea904d5d5, type: 3}
   timeStamps: []
@@ -4102,7 +4102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 10
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: a1221b177970fc145adca026d2d61b77, type: 3}
   timeStamps: []
@@ -4368,7 +4368,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 1
   input: 103
   notePrefab: {fileID: 1679635116095923819, guid: e8f7f2272fc2edc4ca64e0b782e2dd9d, type: 3}
   timeStamps: []
@@ -4509,7 +4509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 10
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: a1221b177970fc145adca026d2d61b77, type: 3}
   timeStamps: []
@@ -5596,7 +5596,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 10
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: a1221b177970fc145adca026d2d61b77, type: 3}
   timeStamps: []
@@ -5729,7 +5729,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 8
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 5dc599d02fa86904db64fb55dca89733, type: 3}
   timeStamps: []
@@ -6112,7 +6112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 6
   input: 103
   notePrefab: {fileID: 1534850418514208906, guid: 62192966518c96445b304f3fb76fff12, type: 3}
   timeStamps: []
@@ -6161,7 +6161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 3
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 8e0a578f8efccba4895837284e9f98f2, type: 3}
   timeStamps: []
@@ -6259,7 +6259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 11
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 0d5a7684289f47743be056cea904d5d5, type: 3}
   timeStamps: []
@@ -6490,7 +6490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 6
   input: 103
   notePrefab: {fileID: 1534850418514208906, guid: 62192966518c96445b304f3fb76fff12, type: 3}
   timeStamps: []
@@ -7632,7 +7632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 3
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 8e0a578f8efccba4895837284e9f98f2, type: 3}
   timeStamps: []
@@ -7941,7 +7941,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 11
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 0d5a7684289f47743be056cea904d5d5, type: 3}
   timeStamps: []
@@ -8291,7 +8291,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 3
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 8e0a578f8efccba4895837284e9f98f2, type: 3}
   timeStamps: []
@@ -8508,7 +8508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 1
   input: 103
   notePrefab: {fileID: 1679635116095923819, guid: e8f7f2272fc2edc4ca64e0b782e2dd9d, type: 3}
   timeStamps: []
@@ -8852,7 +8852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 9
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 0dc0f944041bb87429b65765789a9db0, type: 3}
   timeStamps: []
@@ -9161,7 +9161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 9
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 0dc0f944041bb87429b65765789a9db0, type: 3}
   timeStamps: []
@@ -9742,7 +9742,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 8
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 5dc599d02fa86904db64fb55dca89733, type: 3}
   timeStamps: []
@@ -10008,7 +10008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 9
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 0dc0f944041bb87429b65765789a9db0, type: 3}
   timeStamps: []
@@ -10057,7 +10057,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 10
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: a1221b177970fc145adca026d2d61b77, type: 3}
   timeStamps: []
@@ -10487,11 +10487,89 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 159419516}
   lanes:
+  - {fileID: 1134369776}
+  - {fileID: 497660743}
+  - {fileID: 1174908651}
+  - {fileID: 1948499900}
+  - {fileID: 1528871265}
+  - {fileID: 2012581918}
+  - {fileID: 1901619664}
+  - {fileID: 581022130}
+  - {fileID: 1582188261}
+  - {fileID: 1426744375}
+  - {fileID: 865867486}
+  - {fileID: 984143719}
+  - {fileID: 1104475296}
+  - {fileID: 52515721}
+  - {fileID: 1128866714}
+  - {fileID: 475902463}
+  - {fileID: 1097885951}
+  - {fileID: 799924392}
+  - {fileID: 211450422}
+  - {fileID: 1002232209}
+  - {fileID: 1933815298}
+  - {fileID: 1617457056}
+  - {fileID: 1618668907}
+  - {fileID: 2013664827}
+  - {fileID: 771075318}
+  - {fileID: 677777474}
+  - {fileID: 1270042237}
+  - {fileID: 968342056}
+  - {fileID: 1898874633}
+  - {fileID: 993726910}
+  - {fileID: 962160128}
+  - {fileID: 2059813624}
+  - {fileID: 875548164}
+  - {fileID: 1492865900}
+  - {fileID: 704468006}
+  - {fileID: 550358366}
   - {fileID: 2073587298}
+  - {fileID: 1365072022}
   - {fileID: 1856990796}
+  - {fileID: 1290237085}
   - {fileID: 1441840087}
   - {fileID: 633316277}
   - {fileID: 1547119062}
+  - {fileID: 178607113}
+  - {fileID: 99818115}
+  - {fileID: 622525067}
+  - {fileID: 1246744746}
+  - {fileID: 794547590}
+  - {fileID: 1969196231}
+  - {fileID: 1887006774}
+  - {fileID: 1176391651}
+  - {fileID: 1926562165}
+  - {fileID: 1961765297}
+  - {fileID: 560129650}
+  - {fileID: 348391289}
+  - {fileID: 409197516}
+  - {fileID: 25860707}
+  - {fileID: 366217457}
+  - {fileID: 1179208791}
+  - {fileID: 2107456256}
+  - {fileID: 521771747}
+  - {fileID: 1858034532}
+  - {fileID: 427220899}
+  - {fileID: 973807019}
+  - {fileID: 508425057}
+  - {fileID: 2012219846}
+  - {fileID: 126126932}
+  - {fileID: 1545539506}
+  - {fileID: 2039617751}
+  - {fileID: 1756567282}
+  - {fileID: 381267776}
+  - {fileID: 1890329490}
+  - {fileID: 688582600}
+  - {fileID: 1593223671}
+  - {fileID: 494016287}
+  - {fileID: 344571587}
+  - {fileID: 58625725}
+  - {fileID: 1939212846}
+  - {fileID: 1522166022}
+  - {fileID: 77756487}
+  - {fileID: 768326249}
+  - {fileID: 1114467588}
+  - {fileID: 150656916}
   songDelayInSeconds: 0.1
   marginOfError: 0.07
   inputDelayInMilliseconds: 0
@@ -11619,7 +11697,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 6
   input: 103
   notePrefab: {fileID: 1534850418514208906, guid: 62192966518c96445b304f3fb76fff12, type: 3}
   timeStamps: []
@@ -12032,7 +12110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 8
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 5dc599d02fa86904db64fb55dca89733, type: 3}
   timeStamps: []
@@ -12130,7 +12208,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 3
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 8e0a578f8efccba4895837284e9f98f2, type: 3}
   timeStamps: []
@@ -12312,7 +12390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 1
   input: 103
   notePrefab: {fileID: 1679635116095923819, guid: e8f7f2272fc2edc4ca64e0b782e2dd9d, type: 3}
   timeStamps: []
@@ -12543,7 +12621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e14d6414030f54c8c1c6667d220fe5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  noteRestriction: 0
+  noteRestriction: 11
   input: 103
   notePrefab: {fileID: 4003208864679534659, guid: 0d5a7684289f47743be056cea904d5d5, type: 3}
   timeStamps: []
