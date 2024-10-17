@@ -9,11 +9,10 @@ public class Keyboard : MonoBehaviour
     public GameObject content;
 
     public int numberOfOctaves;
+    public int startNote = 24; // C1=24 but want a setting that can change this based on user controller
     // Start is called before the first frame update
     void Start()
     {
-        int startNote = 24; // C1 but want a setting that can change this based on user controller
-
         for (int i = 0; i < numberOfOctaves; i++)
         {
             createOctave(startNote+i*12, i);
