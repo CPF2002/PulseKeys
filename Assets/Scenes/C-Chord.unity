@@ -10529,6 +10529,7 @@ MonoBehaviour:
   - {fileID: 1290237085}
   - {fileID: 1441840087}
   - {fileID: 633316277}
+  - {fileID: 1046159213}
   - {fileID: 1547119062}
   - {fileID: 178607113}
   - {fileID: 99818115}
@@ -10570,10 +10571,14 @@ MonoBehaviour:
   - {fileID: 768326249}
   - {fileID: 1114467588}
   - {fileID: 150656916}
+  - {fileID: 150656916}
+  - {fileID: 150656916}
+  - {fileID: 150656916}
+  - {fileID: 150656916}
   songDelayInSeconds: 0.1
   marginOfError: 0.07
   inputDelayInMilliseconds: 0
-  fileLocation: Test All Notes.mid
+  fileLocation: C Major Test.mid
   noteTime: 1
   noteSpawnY: 7
   noteTapY: -3
