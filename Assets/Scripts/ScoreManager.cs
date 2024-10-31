@@ -8,6 +8,8 @@ public class ScoreManager : MonoBehaviour
     public AudioSource hitSFX;
     public AudioSource missSFX;
     public TMPro.TextMeshPro scoreText;
+    public TMPro.TextMeshPro multText;
+    public TMPro.TextMeshPro streakText;
     static int comboScore;
     static int hitMultiplier;
     static int streakCounter;
@@ -21,10 +23,10 @@ public class ScoreManager : MonoBehaviour
     }
     public static void Hit()
     {
-        streakCounter += 1;
+        streakCounter += 100;
         if (streakCounter >= 5)
         {
-            hitMultiplier = 2;
+            hitMultiplier = 300;
         }
         comboScore += 1 * hitMultiplier;
         Instance.hitSFX.Play();
@@ -38,5 +40,8 @@ public class ScoreManager : MonoBehaviour
     private void Update()
     {
         scoreText.text = comboScore.ToString();
+        multText.text = hitMultiplier.ToString() + "x";
+        streakText.text = "Streak: " + streakCounter.ToString();
+
     }
 }
