@@ -23,12 +23,12 @@ public class ScoreManager : MonoBehaviour
     }
     public static void Hit()
     {
-        streakCounter += 100;
+        streakCounter += 1;
         if (streakCounter >= 5)
         {
-            hitMultiplier = 300;
+            hitMultiplier = 2;
         }
-        comboScore += 1 * hitMultiplier;
+        comboScore += 100 * hitMultiplier;
         Instance.hitSFX.Play();
     }
     public static void Miss()
