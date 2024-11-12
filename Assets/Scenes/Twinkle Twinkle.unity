@@ -1170,7 +1170,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 90e385e7359459242bea6a95fbddcb49, type: 3}
+  m_audioClip: {fileID: 8300000, guid: f0d3c480bdb7fd24595e56666d7adb60, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10881,7 +10881,7 @@ MonoBehaviour:
   songDelayInSeconds: 0.1
   marginOfError: 0.07
   inputDelayInMilliseconds: 0
-  fileLocation: C Major Test.mid
+  fileLocation: Twinkle_Twinkle_Little_Star_Easy.mid
   noteTime: 1
   noteSpawnY: 7
   noteTapY: -3
