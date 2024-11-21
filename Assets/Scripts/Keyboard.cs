@@ -109,7 +109,7 @@ public class Keyboard : MonoBehaviour
         }
         else if(i == 6){
             //A
-            actualNoteIndex = 9; 
+            actualNoteIndex = 11; 
         }
         return actualNoteIndex;
 
@@ -127,6 +127,9 @@ public class Keyboard : MonoBehaviour
         } else if(i == 3){
             //FS
             actualNote = 8; 
+        } else if(i == 4){
+            //GS
+            actualNote = 10; 
         }
         return actualNote;
     }
