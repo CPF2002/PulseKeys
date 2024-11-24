@@ -108,7 +108,7 @@ public class Keyboard : MonoBehaviour
             actualNoteIndex = 9; 
         }
         else if(i == 6){
-            //A
+            //B
             actualNoteIndex = 11; 
         }
         return actualNoteIndex;
