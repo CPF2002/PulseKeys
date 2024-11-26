@@ -82,6 +82,8 @@ public class SongManager : MonoBehaviour
         foreach (var lane in lanes) lane.SetTimeStamps(array);
 
         Invoke(nameof(StartSong), songDelayInSeconds);
+
+        // create a trigger at the end of the MIDI to end song
     }
     public void StartSong()
     {
@@ -94,9 +96,11 @@ public class SongManager : MonoBehaviour
 
     void Update()
     {
-        if (MidiMaster.GetKeyDown(0, 60))  // Channel 0, note 60
+        if (Input.GetKeyDown(KeyCode.P))
         {
-            print("C3 pressed");
+            Debug.Log("P key was pressed.");
+            // Pause screen here
+            // Pause audio
         }
     }
 }
