@@ -26,8 +26,8 @@ public class Lane : MonoBehaviour
     {
         foreach (var note in array)
         {
-            print(note.NoteName);
-            print(note.NoteNumber);
+            // print(note.NoteName);
+            // print(note.NoteNumber);
             if (note.NoteNumber-12 == midiKey) // 12 is the difference between the midi values in Ableton and the midi values in MidiJack (C4 in Ableton is 60, note.Number in MidiJack is 72)
             {
                 var metricTimeSpan = TimeConverter.ConvertTo<MetricTimeSpan>(note.Time, SongManager.midiFile.GetTempoMap());
@@ -37,12 +37,7 @@ public class Lane : MonoBehaviour
     }
     // Update is called once per frame
     void Update()
-    {
-        if (MidiMaster.GetKeyDown(0, midiKey))  
-        {
-            print($"Input on {midiKey} MIDI note");
-        }
-        
+    {   
         if (spawnIndex < timeStamps.Count)
         {
             if (SongManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - SongManager.Instance.noteTime)
@@ -81,7 +76,6 @@ public class Lane : MonoBehaviour
                 inputIndex++;
             }
         }       
-    
     }
     private void Hit()
     {
