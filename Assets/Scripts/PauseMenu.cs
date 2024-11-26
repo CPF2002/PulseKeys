@@ -6,10 +6,33 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenu;
     public bool isPaused;
+
+    public GameObject targetObject; // Assign the other GameObject in the Inspector
+
+    private AudioSource targetAudioSource;
     
     void Start()
     {
         pauseMenu.SetActive(false);
+
+        if (targetObject != null)
+        {
+            // Get the AudioSource from the target object
+            targetAudioSource = targetObject.GetComponent<AudioSource>();
+
+            if (targetAudioSource != null)
+            {
+                Debug.Log("AudioSource found on target object.");
+            }
+            else
+            {
+                Debug.LogWarning("No AudioSource found on target object.");
+            }
+        }
+        else
+        {
+            Debug.LogWarning("Target object is not assigned.");
+        }
     }
 
     // Update is called once per frame
@@ -33,6 +56,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         pauseMenu.SetActive(true);
         isPaused = true;
+        targetAudioSource.Pause();
     }
 
     public void ResumeGame()
@@ -40,6 +64,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         pauseMenu.SetActive(false);
         isPaused = false; 
+        targetAudioSource.Play();
     }
 
     public void QuitGame()

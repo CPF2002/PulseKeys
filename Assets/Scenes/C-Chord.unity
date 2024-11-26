@@ -12473,6 +12473,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 1602365751}
   isPaused: 0
+  targetObject: {fileID: 159419515}
 --- !u!1 &1808069304
 GameObject:
   m_ObjectHideFlags: 0
