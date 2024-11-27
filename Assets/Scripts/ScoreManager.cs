@@ -26,12 +26,15 @@ public class ScoreManager : MonoBehaviour
     public float startTime;
     public float audioLength;
 
+    public static bool isLevelComplete;
+
     void Start()
     {
         Instance = this;
         comboScore = 0;
         hitMultiplier = 1;
         streakCounter = 0;
+        isLevelComplete = false;
 
         startTime = Time.time; // Record the initial time
         Debug.Log("Start Time: " + startTime + " seconds");
@@ -87,6 +90,7 @@ public class ScoreManager : MonoBehaviour
 
         if (startTime + audioLength + 0.5 < Time.time)
         {
+            isLevelComplete = true;
             Time.timeScale = 0f;
             levelCompleteScreen.SetActive(true);
             Debug.Log("Level Complete!");
