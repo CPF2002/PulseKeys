@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
+
 
 public class ScoreManager : MonoBehaviour
 {
@@ -10,7 +12,8 @@ public class ScoreManager : MonoBehaviour
     public TMPro.TextMeshPro scoreText;
     public TMPro.TextMeshPro multText;
     public TMPro.TextMeshPro streakText;
-    // public TMPro.TextMeshPro finalScoreText;
+    public GameObject finalScoreText;
+    private TextMeshProUGUI textComponent;
     static int comboScore;
     static int hitMultiplier;
     static int streakCounter;
@@ -33,6 +36,8 @@ public class ScoreManager : MonoBehaviour
         startTime = Time.time; // Record the initial time
         Debug.Log("Start Time: " + startTime + " seconds");
         levelCompleteScreen.SetActive(false);
+
+        textComponent = finalScoreText.GetComponent<TextMeshProUGUI>();
 
         // Check if the target audio is assigned
         if (targetObject != null)
@@ -78,7 +83,7 @@ public class ScoreManager : MonoBehaviour
         multText.text = hitMultiplier.ToString() + "x";
         streakText.text = "Streak: " + streakCounter.ToString();
 
-        // finalScoreText.text = "Final Score: " + scoreText.text;
+        textComponent.text = "Final Score: " + scoreText.text;
 
         if (startTime + audioLength + 0.5 < Time.time)
         {

@@ -96,11 +96,6 @@ public class SongManager : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
-        {
-            Debug.Log("P key was pressed.");
-            // Pause screen here
-            // Pause audio
-        }
+        
     }
 }
