@@ -14,6 +14,10 @@ public class ScoreManager : MonoBehaviour
     public TMPro.TextMeshPro streakText;
     public GameObject finalScoreText;
     private TextMeshProUGUI textComponent;
+
+    public GameObject rankText;
+    private TextMeshProUGUI rankTextComponent;
+
     static int comboScore;
     static int hitMultiplier;
     static int streakCounter;
@@ -50,6 +54,7 @@ public class ScoreManager : MonoBehaviour
         levelCompleteScreen.SetActive(false);
 
         textComponent = finalScoreText.GetComponent<TextMeshProUGUI>();
+        rankTextComponent = rankText.GetComponent<TextMeshProUGUI>();
 
         // Check if the target audio is assigned
         if (targetObject != null)
@@ -108,6 +113,42 @@ public class ScoreManager : MonoBehaviour
         maxStreak += 1;
         maxScore += 100 * maxMultiplier;
     }
+
+    public static string Rank(float hitNotes, float maxStreak)
+    {
+        float percentage = hitNotes / maxStreak * 100;
+        Debug.Log("Percentage: " + percentage);
+        if (percentage == 100)
+        {
+            return "SS";
+        }
+        else if (percentage >= 95)
+        {
+            return "S";
+        }
+        else if (percentage >= 90)
+        {
+            return "A";
+        }
+        else if (percentage >= 80)
+        {
+            return "B";
+        }
+        else if (percentage >= 70)
+        {
+            return "C";
+        }
+        else if (percentage >= 60)
+        {
+            return "D";
+        }
+        else
+        {
+            return "F";
+        }
+    }
+
+
     private void Update()
     {
         scoreText.text = comboScore.ToString();
@@ -115,6 +156,8 @@ public class ScoreManager : MonoBehaviour
         streakText.text = "Streak: " + streakCounter.ToString();
 
         textComponent.text = "Final Score: " + scoreText.text + " / " + maxScore + "\n" + "Hit Notes: " + hitNotes + " / " + maxStreak;
+        
+        rankTextComponent.text = Rank((float)hitNotes, (float)maxStreak);
 
         if (startTime + audioLength + 0.5 < Time.time)
         {
