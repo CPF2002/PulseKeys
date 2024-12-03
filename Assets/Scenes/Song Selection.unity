@@ -181,7 +181,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: The Legend of Zelda Theme (Right Hand)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -272,6 +272,7 @@ GameObject:
   - component: {fileID: 65801207}
   - component: {fileID: 65801206}
   - component: {fileID: 65801205}
+  - component: {fileID: 65801210}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -383,7 +384,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 65801208}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 296165828}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SongButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &65801208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,6 +435,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 65801203}
   m_CullTransparentMesh: 1
+--- !u!114 &65801210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65801203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c748fab2c46b664384bdbc3a8c89cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: Halo Theme
 --- !u!1 &254320360
 GameObject:
   m_ObjectHideFlags: 0
@@ -733,7 +759,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Merry Go Round of Life (Right Hand)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -868,7 +894,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Halo Theme
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1003,7 +1029,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Super Mario Theme (Right Hand)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1138,7 +1164,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Jurassic Park Theme
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1367,7 +1393,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Super Mario Theme
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1502,7 +1528,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Merry Go Round of Life
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1593,6 +1619,7 @@ GameObject:
   - component: {fileID: 800768055}
   - component: {fileID: 800768054}
   - component: {fileID: 800768053}
+  - component: {fileID: 800768058}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: Untagged
@@ -1704,7 +1731,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 800768056}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 296165828}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SongButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &800768056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1743,6 +1782,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800768051}
   m_CullTransparentMesh: 1
+--- !u!114 &800768058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800768051}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c748fab2c46b664384bdbc3a8c89cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: Merry Go Round of Life
 --- !u!1 &881072789
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,7 +1853,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Jurassic Park Theme (Right Hand)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1929,6 +1981,7 @@ GameObject:
   - component: {fileID: 968328748}
   - component: {fileID: 968328747}
   - component: {fileID: 968328746}
+  - component: {fileID: 968328751}
   m_Layer: 5
   m_Name: Button (8)
   m_TagString: Untagged
@@ -2040,7 +2093,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 968328749}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 296165828}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SongButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &968328749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2079,6 +2144,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 968328744}
   m_CullTransparentMesh: 1
+--- !u!114 &968328751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968328744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c748fab2c46b664384bdbc3a8c89cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: Merry Go Round of Life (Right Hand)
 --- !u!1 &1008531990
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,6 +2171,7 @@ GameObject:
   - component: {fileID: 1008531994}
   - component: {fileID: 1008531993}
   - component: {fileID: 1008531992}
+  - component: {fileID: 1008531997}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -2204,7 +2283,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1008531995}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 296165828}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SongButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1008531995
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2243,6 +2334,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008531990}
   m_CullTransparentMesh: 1
+--- !u!114 &1008531997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008531990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c748fab2c46b664384bdbc3a8c89cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: Jurassic Park Theme
 --- !u!1 &1035059876
 GameObject:
   m_ObjectHideFlags: 0
@@ -2326,8 +2430,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1789626586}
   m_HandleRect: {fileID: 1789626585}
   m_Direction: 2
-  m_Value: 0.9999992
-  m_Size: 0.8628609
+  m_Value: 0.9999993
+  m_Size: 0.86172205
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -2519,6 +2623,7 @@ GameObject:
   - component: {fileID: 1237830045}
   - component: {fileID: 1237830044}
   - component: {fileID: 1237830043}
+  - component: {fileID: 1237830048}
   m_Layer: 5
   m_Name: Button (6)
   m_TagString: Untagged
@@ -2630,7 +2735,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1237830046}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 296165828}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SongButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1237830046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2669,6 +2786,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1237830041}
   m_CullTransparentMesh: 1
+--- !u!114 &1237830048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237830041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c748fab2c46b664384bdbc3a8c89cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: Halo Theme (Right Hand)
 --- !u!1 &1279561983
 GameObject:
   m_ObjectHideFlags: 0
@@ -2727,7 +2857,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Halo Theme (Right Hand)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3271,7 +3401,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: The Legend of Zelda Theme
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3526,6 +3656,7 @@ GameObject:
   - component: {fileID: 1766339503}
   - component: {fileID: 1766339502}
   - component: {fileID: 1766339501}
+  - component: {fileID: 1766339506}
   m_Layer: 5
   m_Name: Button (7)
   m_TagString: Untagged
@@ -3637,7 +3768,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1766339504}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 296165828}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SongButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1766339504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3676,6 +3819,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1766339499}
   m_CullTransparentMesh: 1
+--- !u!114 &1766339506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766339499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c748fab2c46b664384bdbc3a8c89cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: Jurassic Park Theme (Right Hand)
 --- !u!1 &1783109752
 GameObject:
   m_ObjectHideFlags: 0
@@ -3690,6 +3846,7 @@ GameObject:
   - component: {fileID: 1783109756}
   - component: {fileID: 1783109755}
   - component: {fileID: 1783109754}
+  - component: {fileID: 1783109759}
   m_Layer: 5
   m_Name: Button (10)
   m_TagString: Untagged
@@ -3801,7 +3958,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1783109757}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 296165828}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SongButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1783109757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3840,6 +4009,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783109752}
   m_CullTransparentMesh: 1
+--- !u!114 &1783109759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783109752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c748fab2c46b664384bdbc3a8c89cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: The Legend of Zelda Theme (Right Hand)
 --- !u!1 &1789504508
 GameObject:
   m_ObjectHideFlags: 0
@@ -3854,6 +4036,7 @@ GameObject:
   - component: {fileID: 1789504512}
   - component: {fileID: 1789504511}
   - component: {fileID: 1789504510}
+  - component: {fileID: 1789504515}
   m_Layer: 5
   m_Name: Button (4)
   m_TagString: Untagged
@@ -3965,7 +4148,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1789504513}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 296165828}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SongButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1789504513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4004,6 +4199,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1789504508}
   m_CullTransparentMesh: 1
+--- !u!114 &1789504515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789504508}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c748fab2c46b664384bdbc3a8c89cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: Super Mario Theme
 --- !u!1 &1789626584
 GameObject:
   m_ObjectHideFlags: 0
@@ -4094,6 +4302,7 @@ GameObject:
   - component: {fileID: 1894104724}
   - component: {fileID: 1894104723}
   - component: {fileID: 1894104722}
+  - component: {fileID: 1894104727}
   m_Layer: 5
   m_Name: Button (9)
   m_TagString: Untagged
@@ -4205,7 +4414,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1894104725}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 296165828}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SongButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1894104725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4244,6 +4465,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1894104720}
   m_CullTransparentMesh: 1
+--- !u!114 &1894104727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1894104720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c748fab2c46b664384bdbc3a8c89cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: Super Mario Theme (Right Hand)
 --- !u!1 &1979619318
 GameObject:
   m_ObjectHideFlags: 0
@@ -4258,6 +4492,7 @@ GameObject:
   - component: {fileID: 1979619322}
   - component: {fileID: 1979619321}
   - component: {fileID: 1979619320}
+  - component: {fileID: 1979619325}
   m_Layer: 5
   m_Name: Button (5)
   m_TagString: Untagged
@@ -4369,7 +4604,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1979619323}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 296165828}
+        m_TargetAssemblyTypeName: Menu, Assembly-CSharp
+        m_MethodName: SongButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1979619323
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4408,6 +4655,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1979619318}
   m_CullTransparentMesh: 1
+--- !u!114 &1979619325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1979619318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c748fab2c46b664384bdbc3a8c89cd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  songName: The Legend of Zelda Theme
 --- !u!1 &2014364177
 GameObject:
   m_ObjectHideFlags: 0
