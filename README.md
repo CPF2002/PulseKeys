@@ -1,4 +1,4 @@
-# PulseKeys
+# PulseKeys: A piano playing rhythm game
 
 I argue that piano applications such as Yousician, Rocksmith+ and PianoVision would be more successful by leaning into game design principles to make a game feel more fun and compete in a rhythm game environment. 
 I support my argument by building a piano game prototype and surveying playtesters that demonstrates that users would play a gamified version of piano applications.
